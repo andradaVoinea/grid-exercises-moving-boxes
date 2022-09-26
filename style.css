@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  color: white;
+}
+.box-1 {
+  background-color: #3498db;
+}
+.box-2 {
+  background-color: #e74c3c;
+}
+.box-3 {
+  background-color: #8e44ad;
+}
+.box-4 {
+  background-color: #e67e22;
+}
+.box-5 {
+  background-color: #f39c12;
+}
+.box-6 {
+  background-color: #27ae60;
+}
+.box-7 {
+  background-color: #1abc9c;
+}
+.box-8 {
+  background-color: #c0392b;
+}
+.box-9 {
+  background-color: #686868;
+}
+.box-10 {
+  background-color: #989898;
+}
+.box {
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+  text-shadow: 4px 4px 0px rgb(40, 39, 39);
+}
+/** ---------------------grid template columns ---------------*/
+/* .container {
+    display: grid; */
+/* margin: 10px; */
+/* grid-template-columns: 100px 100px 50px; */
+/* grid-template-columns: 15% 25% 30% 40%; */
+/* grid-template-columns: repeat(7, 40px); */
+/* grid-template-columns: 100px auto 25%;
+} */
+/** ---------------------grid template rows ---------------*/
+/* .container {
+    display: grid; */
+/* grid-template-rows: 100px 200px 300px; */
+/* grid-template-rows: 25vh 25vh 25vh 25vh; */
+/* grid-template-columns: 1fr 2fr 1fr 4.9fr; */
+/* } */
+
+/** ---------------------grid items ---------------*/
+.container {
+  display: grid;
+}
+.box-4 {
+  grid-column-start: 3;
+}
+.box-6 {
+  grid-column-start: 1;
+}
+.box-9 {
+  grid-column-end: 3;
+}
+.box-2 {
+  grid-column-end: 2;
+}
+.box-5 {
+  grid-row-start: 1;
+}
+.box-10 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
